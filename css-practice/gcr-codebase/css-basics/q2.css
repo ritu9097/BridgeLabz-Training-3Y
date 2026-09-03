@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #222;
+}
+
+header {
+    padding: 20px;
+    background-color: #172554;
+    color: white;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+section {
+    min-height: 100vh;
+    padding: 15vh 10%;
+    text-align: center;
+
+    /* Parallax-like effect */
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+section h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 700px;
+    margin: auto;
+}
+
+.history {
+    background: linear-gradient(135deg, #bfdbfe, #60a5fa);
+}
+
+.places {
+    background: radial-gradient(circle, #fde68a, #f59e0b);
+}
+
+.food {
+    background: linear-gradient(135deg, #fecaca, #f87171);
+}
+
+footer {
+    padding: 25px;
+    text-align: center;
+    background-color: #111827;
+    color: white;
+}
